@@ -12,7 +12,7 @@ export default function TUCT() {
     SplashScreen.hide();
   }, []);
   useEffect(() =>{
-    OneSignal.setAppId("9ee022f1-3226-4d41-94d2-671e9673b20c");
+    OneSignal.setAppId("XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX");
     OneSignal.setLogLevel(6, 0);
     OneSignal.setRequiresUserPrivacyConsent(false);
   }, []);
